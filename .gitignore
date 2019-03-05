@@ -1,0 +1,21 @@
+# Session Data files
+.RData
+# R Data files
+*.RData
+*.rda
+*.rdata
+*.rda
+*.csv
+*.txt
+*.zip
+*.dat
+*.xls*
+*.sas7bdat
+*.xport
+*.mdb
+DataRaw/
+DataProcessed/
+.DS_Store
+# the history Rstudio Proj
+.Rhistory
+.Rproj.user
