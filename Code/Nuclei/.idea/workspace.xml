@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Unet_train.py" line="23" mnemonic="I" />
+    <bookmark url="file://$PROJECT_DIR$/Unet_train.py" line="280" mnemonic="D" />
+    <bookmark url="file://$PROJECT_DIR$/Unet_train.py" line="1072" mnemonic="T" />
+    <bookmark url="file://$PROJECT_DIR$/image_patches_class.py" line="196" mnemonic="M" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0ef718c0-0055-4045-af9c-6ce03ea6df12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Nuclei.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Nuclei.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Unet_segmentation_Tensorflow.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image_patches_class.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unet_preprocessing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unet_preprocessing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unet_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unet_train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-14-24/train/events.out.tfevents.1557868464.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-14-24/valid/events.out.tfevents.1557868464.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-36-27/train/events.out.tfevents.1557869787.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-36-27/valid/events.out.tfevents.1557869787.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-48-00/train/events.out.tfevents.1557870480.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-48-00/valid/events.out.tfevents.1557870480.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-51-12/train/events.out.tfevents.1557870672.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-51-12/valid/events.out.tfevents.1557870672.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-58-26/train/events.out.tfevents.1557871106.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_500_500_3_14-05-2019_15-58-26/valid/events.out.tfevents.1557871106.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_512_512_3_14-05-2019_16-00-01/train/events.out.tfevents.1557871201.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_512_512_3_14-05-2019_16-00-01/valid/events.out.tfevents.1557871201.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_512_512_3_14-05-2019_16-05-05/train/events.out.tfevents.1557871505.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/nn0_512_512_3_14-05-2019_16-05-05/valid/events.out.tfevents.1557871505.gshen" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn0_500_500_3.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn0_500_500_3.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn0_500_500_3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn0_512_512_3.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn0_512_512_3.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn0_512_512_3.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn0_512_512_3.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn0_512_512_3.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn0_512_512_3.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saves/nn0_500_500_3_params.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saves/nn0_512_512_3_params.npy" beforeDir="false" afterPath="$PROJECT_DIR$/saves/nn0_512_512_3_params.npy" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Unet_preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="520" column="16" selection-start-line="520" selection-start-column="1" selection-end-line="723" selection-end-column="39" />
+            <state relative-caret-position="169">
+              <caret line="176" column="10" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -29,8 +55,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Unet_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="628" column="63" lean-forward="true" selection-start-line="628" selection-start-column="63" selection-end-line="628" selection-end-column="63" />
+            <state relative-caret-position="2173">
+              <caret line="633" column="74" selection-start-line="633" selection-start-column="34" selection-end-line="633" selection-end-column="74" />
+              <folding>
+                <element signature="e#43#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/image_patches_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="276" column="22" lean-forward="true" selection-start-line="268" selection-end-line="276" selection-end-column="22" />
               <folding>
                 <element signature="e#43#93#0" expanded="true" />
               </folding>
@@ -51,6 +89,13 @@
     <findStrings>
       <find>savefig</find>
       <find>n_epoch=</find>
+      <find>kernel</find>
+      <find>load</find>
+      <find>Image</find>
+      <find>train_df</find>
+      <find>.mat</find>
+      <find>Adam</find>
+      <find>lime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -64,10 +109,11 @@
         <option value="$PROJECT_DIR$/Dataset.py" />
         <option value="$PROJECT_DIR$/Unet_preprocessing.py" />
         <option value="$PROJECT_DIR$/Unet_train.py" />
+        <option value="$PROJECT_DIR$/image_patches_class.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="1853" />
@@ -115,7 +161,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Unet_train">
     <configuration name="Dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Nuclei" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -137,8 +183,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unet_train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Nuclei" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Unet_train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Unet_train" />
         <item itemvalue="Python.Dataset" />
       </list>
     </recent_temporary>
@@ -166,7 +234,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18579236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -181,7 +250,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32937366" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32937366" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.3610811" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.36177105" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -209,15 +278,25 @@
     <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Unet_segmentation_Tensorflow.py" />
     <entry file="file://$PROJECT_DIR$/Unet_preprocessing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="520" column="16" selection-start-line="520" selection-start-column="1" selection-end-line="723" selection-end-column="39" />
+        <state relative-caret-position="169">
+          <caret line="176" column="10" selection-start-line="176" selection-start-column="6" selection-end-line="176" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/image_patches_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="276" column="22" lean-forward="true" selection-start-line="268" selection-end-line="276" selection-end-column="22" />
+          <folding>
+            <element signature="e#43#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Unet_train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="628" column="63" lean-forward="true" selection-start-line="628" selection-start-column="63" selection-end-line="628" selection-end-column="63" />
+        <state relative-caret-position="2173">
+          <caret line="633" column="74" selection-start-line="633" selection-start-column="34" selection-end-line="633" selection-end-column="74" />
           <folding>
             <element signature="e#43#93#0" expanded="true" />
           </folding>

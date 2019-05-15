@@ -735,4 +735,13 @@ pred_mask = np.pad(pred_mask, ((0, offset), (0, offset)), mode="constant")
 plot_score_summary(true_mask, pred_mask)
 
 
+# test dilation effect
+kernel = np.ones((3, 3), np.uint8)
+# Dilation increases object boundary to background.
+# from center to nuclei region
+mask_test = np.zeros((11, 11), np.uint8)
+mask_test[5-3:5+3,5-3:5+3] = 1
+mask_test
 
+mask_test1 = cv2.dilate(mask_test, kernel, iterations=4)
+mask_test1

@@ -22,6 +22,8 @@ config.gpu_options.allow_growth = True
 session = tf.Session(config=config)
 
 plt.interactive(True)
+
+
 CW_DIR = os.getcwd()
 dir = '/home/guanshim/Documents/image_data/'
 dir_res = dir + 'Reports/Nuclei/'
@@ -38,8 +40,8 @@ y_test_pred_proba = {}
 y_test_pred = {}
 
 # Global constants.
-IMG_WIDTH = 512    # Default image width
-IMG_HEIGHT = 512      # Default image height
+IMG_WIDTH = 384    # Default image width
+IMG_HEIGHT = 384    # Default image height
 IMG_CHANNELS = 3      # Default number of channels
 
 ## import dataset
@@ -501,7 +503,7 @@ class NeuralNetwork():
         # Tunable hyperparameters for training.
         self.mb_size = mb_size  # Mini batch size
         self.keep_prob = keep_prob  # Keeping probability with dropout regularization
-        self.learn_rate_step = 3  # Step size in terms of epochs
+        self.learn_rate_step = 4  # Step size in terms of epochs
         self.learn_rate_alpha = 0.25  # Reduction of learn rate for each step
         self.learn_rate_0 = 0.001  # Starting learning rate
         self.dropout_proba = 0.1  # == 1-keep_probability
@@ -630,7 +632,7 @@ class NeuralNetwork():
             # weighted cross entropy.
 
             loss = tf.reduce_mean(tf.nn.weighted_cross_entropy_with_logits(
-                targets=self.y_data_tf, logits=self.z_pred_tf, pos_weight = 20))
+                targets=self.y_data_tf, logits=self.z_pred_tf, pos_weight = 8))
         return loss
 
     def optimizer_tensor(self):
@@ -1104,11 +1106,11 @@ for i, (train_index, valid_index) in enumerate(kfold.split(x_train)):
                 sess.run(tf.global_variables_initializer())  # Variable initialization.
 
                 # Training on original data.
-                u_net.train_graph(sess, x_trn, y_trn, x_vld, y_vld, n_epoch=15.)
+                u_net.train_graph(sess, x_trn, y_trn, x_vld, y_vld, n_epoch = 10.)
 
-                for _ in range(30):
+                for _ in range(1):
                     # Training on augmented data.
-                    u_net.train_graph(sess, x_trn, y_trn, x_vld, y_vld, n_epoch=10.,
+                    u_net.train_graph(sess, x_trn, y_trn, x_vld, y_vld, n_epoch = 1.,
                                       train_on_augmented_data=True)
                     u_net.save_model(sess)  # Save parameters, tensors, summaries.
 
@@ -1130,7 +1132,7 @@ for i, (train_index, valid_index) in enumerate(kfold.split(x_train)):
 
 print('Total running time: ', datetime.datetime.now() - start)
 
-!tensorboard --logdir=./logs
+# !tensorboard --logdir=./logs
 
 mn = 'nn0_512_512_3'
 u_net = NeuralNetwork()
@@ -1143,13 +1145,15 @@ valid_score = u_net.params['valid_score']
 
 print('final train/valid loss = {:.4f}/{:.4f}'.format(train_loss[-1], valid_loss[-1]))
 print('final train/valid score = {:.4f}/{:.4f}'.format(train_score[-1], valid_score[-1]))
-plt.figure(figsize=(10, 5));
+plt.figure(figsize=(10, 5))
 plt.subplot(1,1,1)
 plt.plot(np.arange(0,len(train_loss)), train_loss,'-b', label='Training')
 plt.plot(np.arange(0,len(valid_loss)), valid_loss,'-g', label='Validation')
 plt.legend(loc='lower right', frameon=False)
-plt.ylim(top = 1, bottom = 0.0)
+plt.ylim(top = 3.1, bottom = 0.0)
 plt.ylabel('loss')
-plt.xlabel('steps');
+plt.xlabel('epoches')
+plt.savefig('dir_res' + 'unet_train_loss.png')
+
 
 
